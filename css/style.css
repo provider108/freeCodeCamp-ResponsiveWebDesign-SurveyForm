@@ -1,0 +1,26 @@
+body {
+	background-color: #AAD7D1;
+	text-align: center;
+}
+
+#main{
+	background-color: white;
+}
+
+.row {
+	display: flex;
+	flex-direction: horizontal;
+	justify-content: center;
+}
+
+.leftTab {	
+	text-align: right;
+	flex: 50%;
+}
+
+.rightTab {
+display: flex;	
+	text-align: left;
+	flex-direction: column;
+	flex: 50%;
+}
