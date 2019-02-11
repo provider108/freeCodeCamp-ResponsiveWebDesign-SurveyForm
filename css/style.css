@@ -3,24 +3,50 @@ body {
 	text-align: center;
 }
 
+li {
+	
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
 #main{
 	background-color: white;
 }
 
+#form{
+	padding-top: 1em;
+}
+
 .row {
 	display: flex;
-	flex-direction: horizontal;
+	flex-direction: row;
 	justify-content: center;
 }
 
 .leftTab {	
 	text-align: right;
 	flex: 50%;
+	padding-top: 10px;
 }
 
 .rightTab {
-display: flex;	
+	display: flex;	
 	text-align: left;
 	flex-direction: column;
 	flex: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.radio {
+	position: relative;
+	left: -40px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	float: left;
+
 }
